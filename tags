@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+LogDebug	logger.go	/^	LogDebug *log.Logger$/;"	v	package:main	typeref:typename:*log.Logger
+LogError	logger.go	/^	LogError *log.Logger$/;"	v	package:main	typeref:typename:*log.Logger
+LogInfo	logger.go	/^	LogInfo  *log.Logger$/;"	v	package:main	typeref:typename:*log.Logger
+SHA	fill_packet.h	/^    char SHA[6];$/;"	m	struct:__anonc8c07dd90208	typeref:typename:char[6]
+SPA	fill_packet.h	/^    char SPA[4];$/;"	m	struct:__anonc8c07dd90208	typeref:typename:char[4]
+SendGratuitousArp	main.go	/^func SendGratuitousArp(iface string, req_ip string) {$/;"	f	package:main
+THA	fill_packet.h	/^    char THA[6];$/;"	m	struct:__anonc8c07dd90208	typeref:typename:char[6]
+TPA	fill_packet.h	/^    char TPA[4];$/;"	m	struct:__anonc8c07dd90208	typeref:typename:char[4]
+__anonc8c07dd90108	fill_packet.h	/^{$/;"	s
+__anonc8c07dd90208	fill_packet.h	/^{$/;"	s
+__anonc8c07dd90308	fill_packet.h	/^{$/;"	s
+arp	fill_packet.h	/^    arphdr arp;$/;"	m	struct:__anonc8c07dd90308	typeref:typename:arphdr
+arp_packet	fill_packet.h	/^} arp_packet;$/;"	t	typeref:struct:__anonc8c07dd90308
+arphdr	fill_packet.h	/^} arphdr;$/;"	t	typeref:struct:__anonc8c07dd90208
+clean	Makefile	/^clean:$/;"	t
+dest	fill_packet.h	/^    char dest[6];$/;"	m	struct:__anonc8c07dd90108	typeref:typename:char[6]
+eth	fill_packet.h	/^    ethhdr eth;$/;"	m	struct:__anonc8c07dd90308	typeref:typename:ethhdr
+ethhdr	fill_packet.h	/^} ethhdr;$/;"	t	typeref:struct:__anonc8c07dd90108
+example	README.md	/^# example$/;"	c
+fill_arp_packet	fill_packet.c	/^char* fill_arp_packet(char* smac, char* sip)$/;"	f	typeref:typename:char *
+garp	Makefile	/^garp: fill_packet.c fill_packet.h main.go$/;"	t
+garp	README.md	/^# garp$/;"	c
+hwLen	fill_packet.h	/^    char hwLen;$/;"	m	struct:__anonc8c07dd90208	typeref:typename:char
+hwType	fill_packet.h	/^    uint16_t hwType;$/;"	m	struct:__anonc8c07dd90208	typeref:typename:uint16_t
+init	logger.go	/^func init() {$/;"	f	package:main
+main	logger.go	/^package main$/;"	p
+main	main.go	/^func main() {$/;"	f	package:main
+main	main.go	/^package main$/;"	p
+oper	fill_packet.h	/^    uint16_t oper;$/;"	m	struct:__anonc8c07dd90208	typeref:typename:uint16_t
+opts	main.go	/^var opts struct {$/;"	v	package:main	typeref:typename:struct { If string `long:"if",short:"i" description:"interface" required:"true"`; Ip string `long:"addr" description:"ip" required:"true"`;}
+protoType	fill_packet.h	/^    uint16_t protoType;$/;"	m	struct:__anonc8c07dd90208	typeref:typename:uint16_t
+protocolLen	fill_packet.h	/^    char protocolLen;$/;"	m	struct:__anonc8c07dd90208	typeref:typename:char
+protocolType	fill_packet.h	/^    uint16_t protocolType;$/;"	m	struct:__anonc8c07dd90108	typeref:typename:uint16_t
+sender	fill_packet.h	/^    char sender[6];$/;"	m	struct:__anonc8c07dd90108	typeref:typename:char[6]

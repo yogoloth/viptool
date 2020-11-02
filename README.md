@@ -2,11 +2,13 @@
 maintain virual ip for redis,mysql...
 
 # example
+````
 ./viptool --addr 172.17.5.182 --if wlp4s0
 or
 ./viptool --addr 172.17.5.182 --if wlp4s0 -s
 will set ip addr as well
-
+````
 # todo:
-now just fork from github.com/yogoloth/garp
+now just fork from github.com/yogoloth/garp.
+
 latter will add a common interface to check maintained service like redis or mysql...

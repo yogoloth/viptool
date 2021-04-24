@@ -9,6 +9,4 @@ or
 will set ip addr as well
 ````
 # todo:
-now just fork from github.com/yogoloth/garp.
-
-latter will add a common interface to check maintained service like redis or mysql...
+add a common interface to check maintained service like redis or mysql...
